@@ -7,8 +7,9 @@ public class Solution{
       }
     }
   return largest;
-}
-public static void main(String args[]){
-  int arr[]={1,2,3,4,5,4,6,3,7,10};
-  System.out.println("Largest element of an array is: "+Largest(arr));
+  }
+  public static void main(String args[]){
+    int arr[]={1,2,3,4,5,4,6,3,7,10};
+    System.out.println("Largest element of an array is: "+Largest(arr));
+  }
 }
